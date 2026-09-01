@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Premio</title>
+<meta name="description" content="Reach Premio — WhatsApp orders, delivery support, and partnerships.">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/site.css">
+<style>
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:48px}
+.contact-card{background:var(--ink2);border:1px solid var(--line);border-radius:18px;padding:30px 26px}
+.contact-card h3{font-family:'Fraunces',serif;font-weight:500;font-size:20px;margin-bottom:8px}
+.contact-card p{font-size:13px;color:var(--text-soft);line-height:1.7;margin-bottom:18px}
+.contact-val{font-family:'Fraunces',serif;font-size:16px;color:var(--gold-soft)}
+.contact-note{font-size:11px;color:var(--text-dim);margin-top:6px}
+</style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="/" class="logo">Pr<span class="logo-a">e</span>mio<span class="logo-dot"></span></a>
+  <button class="burger" onclick="document.body.classList.toggle('nav-open')" aria-label="Menu"><span></span><span></span><span></span></button>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/departments.html">Departments</a>
+    <a href="/how-it-works.html">How it works</a>
+    <a href="/delivery.html">Delivery</a>
+    <a href="/about.html">About</a>
+    <a href="/shop.html" class="nav-cta">Shop now →</a>
+  </div>
+</nav>
+
+<main>
+<div class="wrap">
+
+  <section class="page-head">
+    <div class="kicker">Contact</div>
+    <h1 class="h-display">We answer like we <em>deliver.</em></h1>
+    <p class="lede">Orders, delivery questions, gated-estate access, supplier and partnership enquiries — every message reaches a person on the Premio team.</p>
+  </section>
+
+  <section class="section" style="padding-top:24px">
+    <div class="contact-grid">
+      <!-- TODO for Ayo: replace the placeholder number and email below with the real ones, and wire the WhatsApp link as https://wa.me/234XXXXXXXXXX -->
+      <div class="contact-card">
+        <h3>WhatsApp orders & support</h3>
+        <p>The fastest channel — place an order, adjust a delivery, or check a slot.</p>
+        <div class="contact-val">+234 · number coming online</div>
+        <div class="contact-note">Daily · 7:00am – 9:00pm</div>
+      </div>
+      <div class="contact-card">
+        <h3>Email</h3>
+        <p>Anything that deserves a longer answer — feedback, partnerships, suppliers, careers.</p>
+        <div class="contact-val">hello@premio.com.ng</div>
+        <div class="contact-note">Replies within one business day</div>
+      </div>
+      <div class="contact-card">
+        <h3>Delivery zones</h3>
+        <p>Banana Island, Victoria Island, Ikoyi & Parkview, Lekki Phase 1 — with expansion through 2026.</p>
+        <a href="/delivery.html" class="contact-val" style="text-decoration:underline">See coverage & slots →</a>
+        <div class="contact-note">Gated-estate access arranged in advance</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <h2 class="h-display">Or just start the <em>basket.</em></h2>
+    <p class="lede">The shop is open — eighteen departments, slots from 6:30am.</p>
+    <div class="btn-row"><a href="/shop.html" class="btn btn-gold">Start shopping →</a></div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="/" class="logo">Pr<span class="logo-a">e</span>mio<span class="logo-dot"></span></a>
+        <p class="foot-tag">A premium dark-store grocer for Lagos Island. Eighteen departments, 199 curated products, one cold delivery.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Shop</h4>
+        <a href="/shop.html?dept=fresh">Fresh produce</a>
+        <a href="/shop.html?dept=water">Water</a>
+        <a href="/shop.html?dept=meat">Meat & fish</a>
+        <a href="/shop.html?dept=personal">Personal care</a>
+        <a href="/shop.html?dept=baby">Baby</a>
+      </div>
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <a href="/departments.html">All departments</a>
+        <a href="/how-it-works.html">How it works</a>
+        <a href="/delivery.html">Delivery zones</a>
+        <a href="/shop.html">Shop</a>
+      </div>
+      <div class="foot-col">
+        <h4>Premio</h4>
+        <a href="/about.html">About Premio</a>
+        <a href="/contact.html">Contact</a>
+        <a href="/account.html">My account</a>
+        <a href="/shop.html">Order now</a>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 Premio Delivery Ltd · Registered in Lagos, Nigeria</span>
+      <span>Everyday Luxury · Pure Curated Quality</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
